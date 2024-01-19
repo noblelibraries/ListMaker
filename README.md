@@ -29,8 +29,11 @@ $test_password = "password";
 
 ### Outside Libraries/classes
 PHPExcel - https://github.com/PHPOffice/PHPExcel- DEPRECATED 
+
 PHPMailer - https://github.com/PHPMailer/PHPMailer 
+
 Ajax sack library - no longer exists
+
 Sweetalert - https://sweetalert.js.org/	
 
 ### Custom Database Tables
