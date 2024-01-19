@@ -7,8 +7,23 @@
  dynamically changes the form as users make selections.  Crontab entries run reports that have been 
  designated to run periodically.
  
-## What you will need
-External file with all DB sign in info
+### What you will need
+External file with all DB connection info. We use a file outside the web tree called db_info.php which
+defines the Evergreen host, port, database name, username, and password:
+
+```
+$evergreen_host = "evergreen.noblenet.org";
+$evergreen_port = 5432;
+$evergreen_database = "database_name";
+$evergreen_user = "db_user_name";
+$evergreen_password = "password";
+
+$test_host = "evergreen.noblenet.org";
+$test_port = 5432;
+$test_database = "database_name";
+$test_user = "db_user_name";
+$test_password = "password";
+```
 
 Outside Libraries/classes used
 PHPExcel - https://github.com/PHPOffice/PHPExcel- DEPRECATED 
