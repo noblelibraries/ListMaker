@@ -40,6 +40,26 @@ Sweetalert - https://sweetalert.js.org/
 If you want users to schedule reports you need a table to store the information.  We created a schema and table (noble.scheduled_list)
 for this purpose.
 
+```
+CREATE TABLE noble.scheduled_list (
+    id integer DEFAULT nextval('noble.scheduled_list_id_seq'::regclass) NOT NULL,
+    library text NOT NULL,
+    email text NOT NULL,
+    filters text NOT NULL,
+    output text NOT NULL,
+    name text,
+    active boolean DEFAULT true NOT NULL,
+    schedule_type text,
+    create_date date DEFAULT now() NOT NULL,
+    weekly text,
+    specific_days text,
+    relative_days_of_month text,
+    "interval" text,
+    start_date date,
+    last_run date
+);
+```
+
 ### Languages
 php, jquery, javascript, html, css 
 
