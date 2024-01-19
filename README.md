@@ -113,8 +113,8 @@ php, jquery, javascript, html, css
   * Custom form to configure output written fin RSS (xml) 
 
 ***configureSpreadsheet.php***
-  Purpose: Custom form to configure output for Spreadscheet/CSV file
-  Libraries Used: sweetalert
+  * Purpose: Custom form to configure output for Spreadscheet/CSV file
+  * Libraries Used: sweetalert
 
 ***CopyList.php***
   * Class: CopyList - Array of all copies associated with one bib for a branch
