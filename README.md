@@ -7,9 +7,11 @@
  dynamically changes the form as users make selections.  Crontab entries run reports that have been 
  designated to run periodically.
  
-### What you will need
-External file with all DB connection info. We use a file outside the web tree called db_info.php which
-defines the Evergreen host, port, database name, username, and password:
+## What you will need
+
+###db_info.php
+The scripts will look for database connection information in a file called db_info.php which should be stored
+outside the web accessible directories.  The file defines the Evergreen host, port, database name, username, and password:
 
 ```
 $evergreen_host = "evergreen.yourdomain.org";
@@ -25,18 +27,18 @@ $test_user = "db_user_name";
 $test_password = "password";
 ```
 
-Outside Libraries/classes used
+###Outside Libraries/classes
 PHPExcel - https://github.com/PHPOffice/PHPExcel- DEPRECATED 
 PHPMailer - https://github.com/PHPMailer/PHPMailer 
 Ajax sack library - no longer exists
 Sweetalert - https://sweetalert.js.org/	
 
-Custom Database Tables
+###Custom Database Tables
 noble.scheduled_list
 
-Languages used - php, jquery, javascript, html, css 
+###Languages used - php, jquery, javascript, html, css 
 
-PHP files
+###PHP files
 
 activateLists.php
   Purpose: Called from edit_scheduled.php to turn on or off a scheduled list. 
