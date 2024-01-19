@@ -12,13 +12,13 @@ External file with all DB connection info. We use a file outside the web tree ca
 defines the Evergreen host, port, database name, username, and password:
 
 ```
-$evergreen_host = "evergreen.noblenet.org";
+$evergreen_host = "evergreen.yourdomain.org";
 $evergreen_port = 5432;
 $evergreen_database = "database_name";
 $evergreen_user = "db_user_name";
 $evergreen_password = "password";
 
-$test_host = "evergreen.noblenet.org";
+$test_host = "test.yourdomain.org";
 $test_port = 5432;
 $test_database = "database_name";
 $test_user = "db_user_name";
