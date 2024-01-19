@@ -37,7 +37,7 @@ Ajax sack library - no longer exists
 Sweetalert - https://sweetalert.js.org/	
 
 ### Custom Database Tables
-If you want users to schedule reports you need a table to store the information.  We created a schema and table (noble.scheduled_list)
+If you want users to schedule reports you need a table to store the information.  We created a schema and table 
 for this purpose.
 
 ```
