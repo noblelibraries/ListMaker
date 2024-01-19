@@ -59,6 +59,12 @@ CREATE TABLE noble.scheduled_list (
     last_run date
 );
 ```
+A cron job runs daily which checks this table for any reports that need to be run.
+
+```
+## Run lists scheduled with ListMaker
+0 2 * * * /usr/bin/php -f /var/www/tools/list_maker/run_scheduled_lists.php
+```
 
 ### Languages
 php, jquery, javascript, html, css 
