@@ -9,7 +9,7 @@
  
 ## What you will need
 
-###db_info.php
+### db_info.php
 The scripts will look for database connection information in a file called db_info.php which should be stored
 outside the web accessible directories.  The file defines the Evergreen host, port, database name, username, and password:
 
@@ -27,18 +27,19 @@ $test_user = "db_user_name";
 $test_password = "password";
 ```
 
-###Outside Libraries/classes
+### Outside Libraries/classes
 PHPExcel - https://github.com/PHPOffice/PHPExcel- DEPRECATED 
 PHPMailer - https://github.com/PHPMailer/PHPMailer 
 Ajax sack library - no longer exists
 Sweetalert - https://sweetalert.js.org/	
 
-###Custom Database Tables
+### Custom Database Tables
 noble.scheduled_list
 
-###Languages used - php, jquery, javascript, html, css 
+### Languages used
+php, jquery, javascript, html, css 
 
-###PHP files
+### PHP files
 
 activateLists.php
   Purpose: Called from edit_scheduled.php to turn on or off a scheduled list. 
