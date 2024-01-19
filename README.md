@@ -43,38 +43,34 @@ php, jquery, javascript, html, css
 ### PHP files
 
 activateLists.php
-  Purpose: Called from edit_scheduled.php to turn on or off a scheduled list. 
-  NOBLE custom: updates custom noble.scheduled lists table
+* Called from edit_scheduled.php to turn on or off a scheduled list. 
+* NOBLE custom: updates custom noble.scheduled lists table
 
 add_scheduled_report.php
-  Purpose: Interpret all the data to create list via ajax params.  Create the structure to enter in the 
+* Interpret all the data to create list via ajax params.  Create the structure to enter in the 
   database to be properly run. 
-  NOBLE custom: 
-    *Adds lists to custom DB tables
-    *emails creation of scheduled list 
-  Libraries Used:  PHPMailer
+* NOBLE custom: Adds lists to custom DB tables, emails creation of scheduled list 
+* Libraries Used:  PHPMailer
 
 BibList.php
-  Class: BibList - contains all the records and statistics  needed for output
-  Has array of MutipleCopyBib objects - used in HTML and Bib sheet
-  Has array of LibBopyList objects - used in spreadsheets
-  Had array of BibRecs for online records
-  Statistical data. 
-  Sorting functions for different output sorts
-  NOBLE Custom:
-    *Hard coded “NOBLE” as constoria name
+* Class: BibList - contains all the records and statistics  needed for output
+   * Has array of MutipleCopyBib objects - used in HTML and Bib sheet
+   * Has array of LibBopyList objects - used in spreadsheets
+   * Had array of BibRecs for online records
+   * Statistical data 
+   * Sorting functions for different output sorts
+* NOBLE Custom: Hard coded “NOBLE” as constoria name
 
 BibRec.php
-  Classes: 
-    BibRec -  all data associated with a bib record
-    MutipleCopyBib  - extends BibRec - Used for HTML and Bib Sheet
-      Bib with all copies for system attached
-      Has array of CopyList - one list for each branch
-      Keeps statistical totals by system
-    OneCopyBib - extends BibRec - used for Spreadsheet and ungrouped HTML
-      Bib with only one copy
-  NOBLE Custom:
-    *Hard coded link and cover image paths
+* Classes: 
+   * BibRec - all data associated with a bib record
+   * MutipleCopyBib  - extends BibRec - Used for HTML and Bib Sheet
+      * Bib with all copies for system attached
+      * Has array of CopyList - one list for each branch
+      * Keeps statistical totals by system
+   * OneCopyBib - extends BibRec - used for Spreadsheet and ungrouped HTML
+      * Bib with only one copy
+* NOBLE Custom: Hard coded link and cover image paths
 
 configureHTML.php
   Purpose: Custom form to configure output written in HTML format
