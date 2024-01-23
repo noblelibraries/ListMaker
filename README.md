@@ -1,6 +1,4 @@
 # ListMaker
- NOBLE ListMaker Tool
- 
  The ListMaker code consists of a series of PHP scripts that provide both a front-end form 
  and back-end functions to collect and validate user criteria, query the Evergreen database, 
  and deliver the report in various formats to the user.  Javascript validates form entries and 
