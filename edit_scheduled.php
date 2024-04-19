@@ -137,9 +137,7 @@
    
       <div id="footer_links">
       <ul>
-         <li><a href="https://www.noblenet.org/sis/" target="blank"> Staff Information System </a></li>
          <li><a href="https://evergreen.noblenet.org" target="blank"> Catalog </a></li>
-         <li><a href="mailto:tools@noblenet.org?Subject=DashboardContactForm"> Contact</a></li>
       </ul>
       </div><!-- end links -->
       
