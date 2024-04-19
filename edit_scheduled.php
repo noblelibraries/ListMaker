@@ -42,8 +42,6 @@
     <div id ="page_nav">
       <ul>
         <li><a href="list_form.php" target="_blank">List Maker</a></li>
-        <li><a href="https://www.noblenet.org/sis/evergreen/tools/" target="_blank">Cool Tools</a></li>
-        <!--<li><a href="https://docs.google.com/a/noblenet.org/document/d/1eCN_JjnpSpY3xBxaO_-fAVLf-Fv9VJUo_CBUfkdiXG4/edit?usp=sharing" target="_blank">Changelog</a></li>-->
       </ul>
     </div><!-- end page nav -->
     
