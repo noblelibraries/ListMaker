@@ -211,7 +211,7 @@
       $name = "\"".$row[4]."\"";
       $db_id = $row[5];
 
-      if ($working)$email = "paterno@noblenet.org";
+      if ($working)$email = "xxx@noblenet.org";
 
       //figure out if this is one of the days to  run
       $rel_date = date('Y-m-d', strtotime($relative_days_of_month." of ".$month));
