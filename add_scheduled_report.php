@@ -1150,12 +1150,12 @@
 		else $now_message_body .= "\n /usr/bin/php -f /var/www/tools/list_maker/create_list.php ".$args;
 
 		$email = new PHPMailer();
-		$email->From      = 'paterno@noblenet.org';
+		$email->From      = 'xxx@noblenet.org';
 		$email->FromName  = 'List Report Generator';
 		$email->Subject   = '*******New List*******';
 		$email->Body      = $now_message_body;
 
-		$email->AddAddress( 'paterno@noblenet.org');
+		$email->AddAddress( 'xxx@noblenet.org');
 
 		$email->Send();
 
@@ -1245,12 +1245,12 @@
   //email Suzanne
 
   $email = new PHPMailer();
-  $email->From      = 'paterno@noblenet.org';
+  $email->From      = 'xxx@noblenet.org';
   $email->FromName  = 'List Report Generator';
   $email->Subject   = '*******New SCHEDULED List*******';
   $email->Body      = $message_body;
 
-  $email->AddAddress( 'paterno@noblenet.org');
+  $email->AddAddress( 'xxx@noblenet.org');
   $email->Send();
 
 
