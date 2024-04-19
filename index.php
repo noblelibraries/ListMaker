@@ -1266,9 +1266,7 @@
     <div id ="page_nav">
       <ul>
         <li><a href="edit_scheduled.php" target="_blank">Edit Scheduled</a></li>
-        <li><a href="https://www.noblenet.org/sis/evergreen/tools/listmaker/" target="_blank">Help</a></li>
-        <li><a href="https://docs.google.com/document/d/1qx6Kc7CKGDMiSGUd47NZQ8ACLl8gSaD452XdhIJ8fHI/edit?usp=sharing" target="_blank">Roadmap</a></li>
-        <!--<li><a href="https://docs.google.com/a/noblenet.org/document/d/1eCN_JjnpSpY3xBxaO_-fAVLf-Fv9VJUo_CBUfkdiXG4/edit?usp=sharing" target="_blank">Changelog</a></li>-->
+        <li><a href="https://www.google.com" target="_blank">Help</a></li>
       </ul>
     </div><!-- end page nav -->
 
@@ -3780,9 +3778,8 @@
 
       <div id="footer_links">
       <ul>
-         <li><a href="https://www.noblenet.org/sis/" target="blank"> Staff Information System </a></li>
-         <li><a href="https://evergreen.noblenet.org" target="blank"> Catalog </a></li>
-         <li><a href="mailto:tools@noblenet.org?Subject=DashboardContactForm"> Contact</a></li>
+         <li><a href="https://www.google.com" target="blank"> Help </a></li>
+         <li><a href="https://www.google.com" target="blank"> Catalog </a></li>
       </ul>
       </div><!-- end links -->
 
