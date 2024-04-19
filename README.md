@@ -30,7 +30,7 @@ PHPSpreadsheet - https://github.com/PHPOffice/PhpSpreadsheet
 
 PHPMailer - https://github.com/PHPMailer/PHPMailer 
 
-Ajax sack library - no longer exists
+Ajax sack library - https://github.com/abritinthebay/simpleajaxcodekit
 
 Sweetalert - https://sweetalert.js.org/	
 
