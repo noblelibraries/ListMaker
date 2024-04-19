@@ -1789,7 +1789,7 @@ class HTML_Output_Options
           }
        }
 
-       $message .="WEBMASTER NOTE: http://tools.noblenet.org/css/booklist.css must be added to your website to allow for correct formatting. \n Please see http://www.noblenet.org/sis/evergreen/tools/listmaker/htmlfiles/ for further instructions.\n";
+       $message .="WEBMASTER NOTE: http://tools.noblenet.org/css/booklist.css must be added to your website to allow for correct formatting.\n";
 
        return $message;
 
