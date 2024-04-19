@@ -26,7 +26,7 @@ $test_password = "password";
 ```
 
 ### Outside Libraries/classes
-PHPExcel - https://github.com/PHPOffice/PHPExcel- DEPRECATED 
+PHPSpreadsheet - https://github.com/PHPOffice/PhpSpreadsheet
 
 PHPMailer - https://github.com/PHPMailer/PHPMailer 
 
