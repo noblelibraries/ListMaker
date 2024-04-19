@@ -48,7 +48,7 @@
       $name = "\"".$row[3]."\"";
       $db_id = $row[4];
 
-      if ($working)$email = "paterno@noblenet.org";
+      if ($working)$email = "xxx@noblenet.org";
 
       $args = $filter_args."email ".$email." scheduled db_id ".$db_id." report_name ".$name." ".$output_args;
 
@@ -104,7 +104,7 @@
       $name = "\"".$row[3]."\"";
       $db_id = $row[4];
 
-       if ($working)$email = "paterno@noblenet.org";
+       if ($working)$email = "xxx@noblenet.org";
 
        $args = $filter_args."email ".$email." scheduled db_id ".$db_id." report_name ".$name." ".$output_args;
 
@@ -158,7 +158,7 @@
       $name = "\"".$row[3]."\"";
       $db_id = $row[4];
 
-      if ($working)$email = "paterno@noblenet.org";
+      if ($working)$email = "xxx@noblenet.org";
 
        $args = $filter_args."email ".$email." scheduled db_id ".$db_id." report_name ".$name." ".$output_args;
 
@@ -271,7 +271,7 @@
       $db_id = $row[6];
       $name = "\"".$row[7]."\"";
 
-      if ($working)$email = "paterno@noblenet.org";
+      if ($working)$email = "xxx@noblenet.org";
 
       //figure out if this is one of the days to run
       if ($last_run) $rel_date = date('Y-m-d', strtotime($last_run."+".$interval));
