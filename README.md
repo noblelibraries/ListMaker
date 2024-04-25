@@ -4,6 +4,9 @@
  and deliver the report in various formats to the user.  Javascript validates form entries and 
  dynamically changes the form as users make selections.  Crontab entries run reports that have been 
  designated to run periodically.
+
+ The ListMaker was written by Suzanne Paterno for the North of Boston Library Exchange, Inc. and is 
+ currently maintained by NOBLE staff.
  
 ## What you will need
 
